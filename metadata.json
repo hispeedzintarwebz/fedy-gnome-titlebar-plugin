@@ -1,0 +1,16 @@
+{
+	"icon": "utilities-terminal",
+	"label": "Decrease Gnome Title Bar Size",
+	"description": "Decreases thickness of Gnome's default window title bars for the active user.",
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Setup",
+			"command": "run-as-root -s setup.sh"
+		},
+		"undo": {
+			"label": "Revert",
+			"command": "run-as-root rm -f ~/.config/gtk-3.0/gtk.css"
+		},
+	}
+}
