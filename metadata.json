@@ -6,11 +6,11 @@
 	"scripts": {
 		"exec": {
 			"label": "Setup",
-			"command": "run-as-root -s setup.sh"
+			"command": "sh ./setup.sh"
 		},
 		"undo": {
 			"label": "Revert",
-			"command": "run-as-root rm -f ~/.config/gtk-3.0/gtk.css"
+			"command": "rm -f ~/.config/gtk-3.0/gtk.css"
 		},
 	}
 }
