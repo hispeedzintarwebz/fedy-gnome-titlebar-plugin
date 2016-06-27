@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # create css file
-touch ~/.config/gtk-3.0/gtk.css.bak
+touch ~/.config/gtk-3.0/gtk.css
 
 #append css overrides
-cat <<EOF >> ~/.config/gtk-3.0/gtk.css.bak
+cat <<EOF >> ~/.config/gtk-3.0/gtk.css
 .header-bar.default-decoration {
         padding-top: 0px;
         padding-bottom: 0px;
